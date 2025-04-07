@@ -52,24 +52,8 @@ window.addEventListener('scroll', () => {
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        // Get form values
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const subject = document.getElementById('subject').value;
-        const message = document.getElementById('message').value;
-        
-        // Basic validation
-        if (!name || !email || !subject || !message) {
-            alert('Lütfen tüm alanları doldurun.');
-            return;
-        }
-        
-        // Here you would typically send the form data to a server
-        // For demonstration, we'll just show an alert
-        alert('Mesajınız gönderildi! En kısa sürede size dönüş yapacağız.');
-        contactForm.reset();
+        // Form artık Formspree tarafından işlenecek, JS ile özel bir işlem yapmaya gerek yok
+        // Burada formun doğrulaması yapılabilir ama halihazırda HTML5 doğrulaması kullanıyoruz
     });
 }
 
