@@ -24,7 +24,6 @@
 
 .process-hero-content p {
     font-size: 1.5rem;
-    
 }
 
 /* ===== TIMELINE SECTION ===== */
@@ -143,7 +142,7 @@
 /* ===== CTA SECTION ===== */
 .cta-section {
     background-color: #f5eede;
-    color: var(--light-color);
+    color: #333;
     padding: 80px 0;
     text-align: center;
 }
@@ -192,6 +191,14 @@
 }
 
 @media screen and (max-width: 768px) {
+    .logo {
+        margin-left: 0;
+    }
+    
+    nav {
+        margin-right: 0;
+    }
+    
     .timeline::after {
         left: 31px;
     }
