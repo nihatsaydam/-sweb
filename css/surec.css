@@ -1,6 +1,6 @@
 /* ===== PROCESS HERO SECTION ===== */
 .process-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/process-bg.jpg);
+    background: #9b795c;
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -9,6 +9,7 @@
     color: var(--light-color);
     text-align: center;
     margin-top: 80px; /* To account for fixed header */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .process-hero-content {
@@ -17,12 +18,13 @@
 }
 
 .process-hero-content h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
 }
 
 .process-hero-content p {
     font-size: 1.5rem;
+    
 }
 
 /* ===== TIMELINE SECTION ===== */
@@ -140,7 +142,7 @@
 
 /* ===== CTA SECTION ===== */
 .cta-section {
-    background-color: var(--accent-color);
+    background-color: #f5eede;
     color: var(--light-color);
     padding: 80px 0;
     text-align: center;

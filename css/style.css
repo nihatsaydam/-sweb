@@ -159,7 +159,7 @@ nav ul li a:hover {
 
 /* ===== HERO SECTION ===== */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hero-bg.jpg);
+    background: #f5eede;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -330,7 +330,7 @@ nav ul li a:hover {
 
 /* ===== FOOTER ===== */
 footer {
-    background-color: var(--dark-color);
+    background-color: #9b795c;
     color: var(--light-color);
     padding: 60px 0 0;
 }
