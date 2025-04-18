@@ -411,6 +411,10 @@ footer {
         display: block;
     }
 
+    .logo {
+        margin-left: 0;
+    }
+    
     nav {
         position: fixed;
         top: 80px;
@@ -419,6 +423,7 @@ footer {
         height: calc(100vh - 80px);
         background-color: var(--light-color);
         transition: left 0.3s ease;
+        margin-right: 0;
     }
 
     nav.active {
